@@ -1,11 +1,14 @@
 var structtmk_1_1model_1_1Pad =
 [
+    [ "CustomPrim", "structtmk_1_1model_1_1Pad_1_1CustomPrim.html", "structtmk_1_1model_1_1Pad_1_1CustomPrim" ],
     [ "angle", "structtmk_1_1model_1_1Pad.html#afb90fadf4a101a58cccc33bffcbfb7e3", null ],
     [ "chamfer_corners", "structtmk_1_1model_1_1Pad.html#aa93dda14e4b830e38b30905041e8f7eb", null ],
     [ "chamfer_ratio", "structtmk_1_1model_1_1Pad.html#a4fa754027767ce0127e7a782448938b3", null ],
     [ "clearance", "structtmk_1_1model_1_1Pad.html#a70ec0228c1b320cbd4a27aad6ba730d9", null ],
     [ "copper", "structtmk_1_1model_1_1Pad.html#a1d1398d0d511551385c6ad1d62299466", null ],
-    [ "custom_polys", "structtmk_1_1model_1_1Pad.html#a5ab8dbe57d9eaa8b0362e6ec4d4eff67", null ],
+    [ "custom_prims", "structtmk_1_1model_1_1Pad.html#a8f315033470dddb7e49a4ae83ec65efb", null ],
+    [ "die_delay", "structtmk_1_1model_1_1Pad.html#a556ade7189dc6d8930d77b5eeb00d759", null ],
+    [ "die_length", "structtmk_1_1model_1_1Pad.html#a5cb80157ee6bca7ba8dd2254460bdbae", null ],
     [ "drill_offset", "structtmk_1_1model_1_1Pad.html#a71254682d3b070b0d6414b3034c4fb9e", null ],
     [ "drill_oval", "structtmk_1_1model_1_1Pad.html#a1a903185e7676d343dea6b46cefca3b6", null ],
     [ "drill_x", "structtmk_1_1model_1_1Pad.html#a28b9a270a4885044ef6c3c668c79c5c8", null ],
@@ -29,5 +32,7 @@ var structtmk_1_1model_1_1Pad =
     [ "trapezoid_dx", "structtmk_1_1model_1_1Pad.html#aa94aa5b2142190e2546bf357b2594eeb", null ],
     [ "trapezoid_dy", "structtmk_1_1model_1_1Pad.html#a8dc17ca455efabca9a8f39437783de97", null ],
     [ "type", "structtmk_1_1model_1_1Pad.html#a63241a0bfe57b28f635d8a647fa1b4f6", null ],
-    [ "zone_connect", "structtmk_1_1model_1_1Pad.html#aab513108860396a1bb183d3bd85fd75c", null ]
+    [ "unconnected", "structtmk_1_1model_1_1Pad.html#a2b888ffe7eaaf67190d1129cab30ef62", null ],
+    [ "zone_connect", "structtmk_1_1model_1_1Pad.html#aab513108860396a1bb183d3bd85fd75c", null ],
+    [ "zone_layers", "structtmk_1_1model_1_1Pad.html#a42fb278fce5fe60c566c5c6ef27046ff", null ]
 ];
