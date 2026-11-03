@@ -666,6 +666,8 @@
       
         
       
+        
+      
     
     
     
@@ -847,6 +849,41 @@
     
   
     Read a run report
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--current"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../how-to/live-page/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Watch runs live
   
 
     
@@ -1930,6 +1967,8 @@
       
         
       
+        
+      
     
     
     
@@ -2051,6 +2090,41 @@
   
   
     <span class="md-status md-status--plan"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../20-complete-routing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Towards 100 % routed boards
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--partly-built"></span>
   
 
   
@@ -2303,6 +2377,11 @@ On connect the server sends the latest <code>board</code> snapshot, then every l
 <td><code>stats</code></td>
 <td><code>stage</code>, <code>iteration</code>, <code>routed</code>, <code>total</code>, <code>unrouted</code>, <code>rips</code>, <code>failures</code>, <code>elapsed_s</code>, <code>extra:{}</code></td>
 <td>Progress counters (≤ 10 Hz)</td>
+</tr>
+<tr>
+<td><code>stats_history</code></td>
+<td><code>points:[[elapsed_s, routed, total, unrouted],…]</code>, <code>marks:[[elapsed_s, stage],…]</code></td>
+<td>The burndown so far, sent by the server (not the engine) to a client that connects during a run, before the latest <code>stats</code>: one point per <code>stats</code> message (at most 1,200; a long run keeps every other one), and the time each <code>stage</code> began (0 before the first <code>stats</code>). A <code>stats</code> whose time goes backwards or whose total changes starts a new run</td>
 </tr>
 <tr>
 <td><code>stage</code></td>
