@@ -182,6 +182,9 @@ var annotated_dup =
       ] ],
       [ "passes", "namespacetmk_1_1passes.html", [
         [ "PourPlan", "structtmk_1_1passes_1_1PourPlan.html", "structtmk_1_1passes_1_1PourPlan" ],
+        [ "RepairOptions", "structtmk_1_1passes_1_1RepairOptions.html", "structtmk_1_1passes_1_1RepairOptions" ],
+        [ "RepairStep", "structtmk_1_1passes_1_1RepairStep.html", "structtmk_1_1passes_1_1RepairStep" ],
+        [ "RepairResult", "structtmk_1_1passes_1_1RepairResult.html", "structtmk_1_1passes_1_1RepairResult" ],
         [ "StitchOptions", "structtmk_1_1passes_1_1StitchOptions.html", "structtmk_1_1passes_1_1StitchOptions" ],
         [ "StitchReturn", "structtmk_1_1passes_1_1StitchReturn.html", "structtmk_1_1passes_1_1StitchReturn" ],
         [ "StitchResult", "structtmk_1_1passes_1_1StitchResult.html", "structtmk_1_1passes_1_1StitchResult" ],
@@ -212,6 +215,9 @@ var annotated_dup =
         [ "Violations", "structtmk_1_1place_1_1Violations.html", "structtmk_1_1place_1_1Violations" ],
         [ "LegaliseStats", "structtmk_1_1place_1_1LegaliseStats.html", "structtmk_1_1place_1_1LegaliseStats" ],
         [ "MinCostFlow", "classtmk_1_1place_1_1MinCostFlow.html", "classtmk_1_1place_1_1MinCostFlow" ],
+        [ "AdvisedMove", "structtmk_1_1place_1_1AdvisedMove.html", "structtmk_1_1place_1_1AdvisedMove" ],
+        [ "AdvisedSeed", "structtmk_1_1place_1_1AdvisedSeed.html", "structtmk_1_1place_1_1AdvisedSeed" ],
+        [ "PlaceAdvice", "structtmk_1_1place_1_1PlaceAdvice.html", "structtmk_1_1place_1_1PlaceAdvice" ],
         [ "PlaceOptions", "structtmk_1_1place_1_1PlaceOptions.html", "structtmk_1_1place_1_1PlaceOptions" ],
         [ "Metrics", "structtmk_1_1place_1_1Metrics.html", "structtmk_1_1place_1_1Metrics" ],
         [ "PlaceReport", "structtmk_1_1place_1_1PlaceReport.html", "structtmk_1_1place_1_1PlaceReport" ],
@@ -271,6 +277,7 @@ var annotated_dup =
         [ "GlobalResult", "structtmk_1_1route_1_1GlobalResult.html", "structtmk_1_1route_1_1GlobalResult" ],
         [ "HeatGrid", "classtmk_1_1route_1_1HeatGrid.html", "classtmk_1_1route_1_1HeatGrid" ],
         [ "LayerLimits", "structtmk_1_1route_1_1LayerLimits.html", "structtmk_1_1route_1_1LayerLimits" ],
+        [ "LayerDirections", "structtmk_1_1route_1_1LayerDirections.html", "structtmk_1_1route_1_1LayerDirections" ],
         [ "LazyCodes", "classtmk_1_1route_1_1LazyCodes.html", "classtmk_1_1route_1_1LazyCodes" ],
         [ "LegalizeOptions", "structtmk_1_1route_1_1LegalizeOptions.html", "structtmk_1_1route_1_1LegalizeOptions" ],
         [ "LegalizeResult", "structtmk_1_1route_1_1LegalizeResult.html", "structtmk_1_1route_1_1LegalizeResult" ],
@@ -299,6 +306,7 @@ var annotated_dup =
         [ "ViewerServer", "classtmk_1_1server_1_1ViewerServer.html", "classtmk_1_1server_1_1ViewerServer" ]
       ] ],
       [ "session", "namespacetmk_1_1session.html", [
+        [ "DaemonOptions", "structtmk_1_1session_1_1DaemonOptions.html", "structtmk_1_1session_1_1DaemonOptions" ],
         [ "SessionOptions", "structtmk_1_1session_1_1SessionOptions.html", "structtmk_1_1session_1_1SessionOptions" ],
         [ "Session", "classtmk_1_1session_1_1Session.html", "classtmk_1_1session_1_1Session" ]
       ] ],
